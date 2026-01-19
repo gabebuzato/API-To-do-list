@@ -1,0 +1,43 @@
+EU, COMO USUÁRIO, QUERO PODER ADICIONAR UMA TAREFA
+EU, COMO USUÁRIO, QUERO PODER EDITAR UMA TAREFA
+EU, COMO USUÁRIO, QUERO PODER EXCLUIR UMA TAREFA
+EU, COMO USUÁRIO, QUERO PODER VER TODAS AS MINHA TAREFAS
+EU, COMO USUÁRIO, QUERO PODER VER OS DADOS DE UMA TEREFA
+EU, COMO USUÁRIO, QUERO PODER MARCAR UMA TAREFA COMO CONCLUÍDA
+EU, COMO USUÁRIO, QUERO PODER DESMARCAR UMA TAREFA CONCLUÍDA
+
+--------------------------------------------------------------------------------
+route - /task - adicionar uma tarefa
+
+{
+    descrição
+    id
+    data
+    status - (completed - in_progress)
+}
+
+--------------------------------------------------------------------------------
+
+route - /task - Editar uma tarefa 
+
+{
+    id 
+    descrição
+    data
+    status (completed - in_progess)
+}
+
+--------------------------------------------------------------------------------
+
+route - /task/{id_task} - Excluir uma tarefa
+
+--------------------------------------------------------------------------------
+
+route - /task - Buscar todas as tarefas
+
+--------------------------------------------------------------------------------
+
+route - /task/{id_task} - Buscar dados de uma única tarefa
+
+--------------------------------------------------------------------------------
+
