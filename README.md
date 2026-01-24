@@ -2,7 +2,8 @@
 
 API RESTful para gerenciamento de tarefas (To-Do List), desenvolvida em **Node.js** com **TypeScript**, utilizando uma arquitetura em camadas (**Controller, Service e Repository**) para garantir organização, escalabilidade e fácil manutenção do código.
 
-Este projeto foi desenvolvido com foco em aprendizado e prática de backend, boas práticas de API REST e estruturação profissional de projetos.
+Desenvolvi esse projeto com o objetivo de adquirir boas práticas de código, todo o sistema de pastas do projeto foi baseado em CSMR e desenvolvido com a intenção de fazer um sistema escalável, que tenha boas práticas e com classes que tenham atribuições únicas.
+E sim, o projeto atual foi feito sem a utilização de um banco de dados, o repositorie tem uma constante que foi iniciado como um array vazio, e os dados dos possíveis usuários são enviados para esse array com um push do services.
 
 ---
 
